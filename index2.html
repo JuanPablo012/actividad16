@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="css\style2.css">
+    <title>Actividad N°16</title>
+</head>
+
+<body onload="traerdatos()">
+
+    <div class="conten">
+        <div id="contenedor" class="contenedor">
+            <p id="m1"></p>
+            <p id="m2"></p>
+            <div id="imagen"></div>
+        </div>
+        <br>
+        <br>
+        <div id="registro" class="registro">
+
+            <label for="nest">Número del estudiante</label>
+            <input id="nest" name="nest" type="text" placeholder="Numero del estudiante" size="20" maxlength="2"
+                disabled>
+            <button id="numest" onclick="numest1()">Generar</button>
+
+            <br>
+            <label for="edad">Edad</label>
+            <input id="edad" type="text" placeholder="Edad" size="10" maxlength="2" name="edad" disabled>
+            <button id="genedad" onclick="gedad()">Generar</button>
+
+            <br>
+            <label for="n1">Nota 1</label>
+            <input id="n1" type="text" placeholder="Nota 1" size="10" maxlength="2" name="n1" disabled>
+            <button id="gen1" onclick="gn1()">Generar</button>
+
+            <br>
+            <label for="n2">Nota 2</label>
+            <input id="n2" type="text" placeholder="Nota 2" size="10" maxlength="2" name="n2" disabled>
+            <button id="gen2" onclick="gn2()">Generar</button>
+
+            <br>
+            <label for="n3">Nota 3</label>
+            <input id="n3" type="text" placeholder="Nota 3" size="10" maxlength="2" name="n3" disabled>
+            <button id="gen3" onclick="gn3()">Generar</button>
+
+            <br>
+            <button class="tabla btn-dark" onclick="agregar()">Añadir a la tabla</button>
+            <br>
+            <br>
+            <br>
+        </div>
+        <br>
+        <br>
+
+        <div id="tabla">
+            <form action="" class="formulario">
+                <table class="table table-striped" id="datos">
+                    <thead>
+                        <tr>
+                            <th scope="col">Nombre</th>
+                            <th scope="col">Edad</th>
+                            <th scope="col">Nota 1</th>
+                            <th scope="col">Nota 2</th>
+                            <th scope="col">Nota 3</th>
+                            <th scope="col" id="prom">Promedio</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </form>
+
+        </div>
+            <form action="index3.html" id="invisible">
+                <input name="mayor" id="mayor" type="hidden">
+                <input name="nommayor" id="nommayor" type="hidden">
+                <input name="menor" id="menor" type="hidden">
+                <input name="nommenor" id="nommenor" type="hidden">
+
+                <button class="promedios btn-dark">Ver Promedios</button>
+            </form>
+       
+        <br>
+        <br>
+        <br>
+
+
+        <br>
+        <br>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js\js2_ind2.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>

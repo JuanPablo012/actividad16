@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #0A7DCF;
+}
+
+.container{
+    margin: auto;
+    margin-top: 10%;
+}
+
+input[type="submit"]{
+    margin-top: 5%;
+}
+
+form{
+    background-color: white;
+  padding: 5%;
+    border: black 2px solid;
+}
+

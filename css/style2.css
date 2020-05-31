@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 10%;
+}
+
+body{
+    background-color: #0A7DCF;
+}
+.conten{
+    
+    margin-left: 10%;
+    width: 70%;
+}
+
+.contenedor{
+    background-color: white;
+    margin-left: 20%;
+    padding-left: 15%;
+    border: black 2px solid;
+}
+
+.registro{
+    background-color: white;
+    margin-left: 20%;
+    padding: 5%;
+    border: black 2px solid;
+}
+
+.formulario{
+    background-color: white;
+    margin-left: 20%;
+    
+    border: black 2px solid;
+}
+#invisible{
+    margin-top: 2%;
+    margin-left: 20%;
+}
+
